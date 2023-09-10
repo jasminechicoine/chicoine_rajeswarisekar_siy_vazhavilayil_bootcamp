@@ -26,7 +26,7 @@ Find out all about the Interactive Media Design program
 
 Developer: Jasmine
 Designer: Haem
-Photos/Developer: Rebin
+Photos: Rebin
 Video/Design: Lalaine
 
 ## License
