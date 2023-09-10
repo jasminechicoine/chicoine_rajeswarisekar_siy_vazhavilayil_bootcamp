@@ -64,17 +64,21 @@
           Design program and connect with industry professionals.
         </p>
 
-        <div class="m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+        <div
+          class="col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12"
+        >
           <div class="grid-con" id="dates">
             <div
-              class="m-col-start-3 m-col-end-6 m-col-end l-col-start-3 l-col-end-6"
+              class="col-start-1 col-end-5 m-col-start-3 m-col-end-6 m-col-end l-col-start-3 l-col-end-6"
             >
               <h3>Event Date and Time:</h3>
               <p>Date: 26.10.2023</p>
               <p>Time: 10AM - 6PM</p>
             </div>
 
-            <div class="m-col-start-7 m-col-end-11 l-col-start-8 l-col-end-11">
+            <div
+              class="col-start-1 col-end-5 m-col-start-7 m-col-end-11 l-col-start-8 l-col-end-11"
+            >
               <h3>Location:</h3>
               <p>Fanshawe College, Downtown Campus</p>
               <p>130 Dundas St, London, ON N6A 1G2</p>
@@ -101,11 +105,11 @@
           passionate students and instructors, and see how were pushing the
           boundaries of interactive media design.
         </p>
-        <div
-          class="m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12"
-          id="video"
-        >
-          Video Goes Here
+        <div class="video-container">
+          <video controls>
+            <source src="" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </section>
 
@@ -129,7 +133,9 @@
       </section>
 
       <section id="projects" class="grid-con">
-        <div class="m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+        <div
+          class="col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12"
+        >
           <h2>Client Projects</h2>
           <p id="proj-text">
             As part of our Interactive Media Design program at Fanshawe College,
@@ -144,21 +150,79 @@
       </section>
       <section class="grid-con">
         <div id="projects-col1">
-          <img class="image" data-member="client1" src="tbd" alt="client1" />
+          <img
+            class="image"
+            data-member="client1"
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcset="
+              images/Mobile-homepage-assets/web_design.jpeg   320w,
+              images/Tablet-homepage-assets/web_design.png    768w,
+              images/Desktop-homepage-assets/web_design.jpeg 1920w
+            "
+            src="images/Desktop-homepage-assets/web_design.jpeg"
+            alt="client1"
+          />
         </div>
         <div id="projects-col2">
-          <img class="image" data-member="client2" src="tbd" alt="client2" />
+          <img
+            class="image"
+            data-member="client2"
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcset="
+              images/Mobile-homepage-assets/graphic design.jpeg  320w,
+              images/Tablet-homepage-assets/graphic design.png    768w,
+              images/Desktop-homepage-assets/graphic design.jpeg 1920w
+            "
+            src="images/Desktop-homepage-assets/graphic design.jpeg"
+            alt="client2"
+          />
         </div>
         <div id="projects-col3">
-          <img class="image" data-member="client3" src="tbd" alt="client3" />
+          <img
+            class="image"
+            data-member="client3"
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcset="
+            images/Mobile-homepage-assets/video editing.jpeg  320w,
+            images/Tablet-homepage-assets/video editing.png   768w,
+            images/Desktop-homepage-assets/video editing.jpeg 1920w
+          "
+            src="images/Desktop-homepage-assets/video editing.jpeg"
+            alt="client3"
+          />
+        </div>
+      </section>
+
+      <section id="showcase" class="grid-con">
+        <div
+          class="col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12"
+        >
+          <h2>Student Portfolio Showcase</h2>
+          <p id="show-text">Click here for view the student works</p>
+
+          <img
+            data-member="showcase"
+            sizes="(max-width: 1920px) 100vw, 1920px"
+            srcset="
+              images/Mobile-homepage-assets/PORTFOLIO.jpeg   320w,
+              images/Tablet-homepage-assets/PORTFOLIO.png    768w,
+              images/Desktop-homepage-assets/PORTFOLIO.jpeg 1920w
+            "
+            src="images/Desktop-homepage-assets/PORTFOLIO.jpeg"
+            alt="showcase"
+          />
         </div>
       </section>
 
       <section id="testimonials" class="grid-con">
-        <h2>FROM OUR CUSTOMERS</h2>
+        <h2>FROM OUR STUDENTS</h2>
 
         <div class="testimonial-col1">
-          <img src="images/user1.jpg" alt="Emma" class="testimonial-col-img" />
+          <img
+            src="images/Tablet-homepage-assets/customer_1.png"
+            alt="Emma"
+            class="testimonial-col-img"
+          />
           <div>
             <p class="testimonial-col-p">
               The Interactive Media Design program was not just an educational
@@ -176,7 +240,11 @@
           </div>
         </div>
         <div class="testimonial-col2">
-          <img src="images/user2.jpg" alt="Barb" class="testimonial-col-img" />
+          <img
+            src="images/Tablet-homepage-assets/customer_2.png"
+            alt="Barb"
+            class="testimonial-col-img"
+          />
           <div>
             <p class="testimonial-col-p2">
               The Interactive Media Design program was not just an educational
@@ -196,7 +264,9 @@
       </section>
 
       <section id="message" class="grid-con">
-        <div class="m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12">
+        <div
+          class="col-start-1 col-end-5 m-col-start-2 m-col-end-12 l-col-start-2 l-col-end-12"
+        >
           <p>
             The Interactive Media Design program was not just an educational
             journey; it was a life-changing experience that laid the foundation
@@ -206,7 +276,7 @@
         </div>
         <a
           href="mobilecontact.html"
-          class="cta-btn m-col-start-5 m-col-end-9 l-col-start-6 l-col-end-8"
+          class="cta-btn col-start-2 col-end-4 m-col-start-5 m-col-end-9 l-col-start-6 l-col-end-8"
           ><p class="button-text1">CONTACT US</p></a
         >
       </section>
