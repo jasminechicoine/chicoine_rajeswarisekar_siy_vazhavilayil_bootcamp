@@ -24,6 +24,11 @@ p {
   color: #282828;
 }
 
+.h2-text {
+  color: #ccc;
+  text-align: center;
+}
+
 #main-header1 {
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(../images/Mobile-homepage-assets/hero_image_2.jpeg);
@@ -182,6 +187,10 @@ button {
   margin-bottom: 25px;
 }
 
+#prog-info {
+  padding-top: 300px;
+}
+
 #dates {
   background: #9199bf;
   border-radius: 10px;
@@ -228,6 +237,16 @@ button {
 
 #discover p {
   color: #2a2a2a;
+  padding-bottom: 0px;
+}
+
+.video-container video {
+  position: absolute;
+  top: 30;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: -100px;
 }
 
 #projects {
@@ -280,6 +299,24 @@ button {
   width: 100%;
   border-radius: 20px;
 }
+
+#showcase h2 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+#showcase p {
+  padding-bottom: 5px;
+}
+
+#show-text {
+  text-align: center;
+}
+
+#showcase img {
+  width: 100%;
+}
+
 #testimonials {
   display: grid;
   margin: 0 auto;
@@ -554,7 +591,7 @@ input {
   font-size: 12px;
   padding: 0px;
   padding-top: 6px;
-  margin: 0px;
+  margin-top: -30px;
   color: #fff;
 }
 
@@ -668,6 +705,14 @@ button {
 
   #about p {
     color: #2a2a2a;
+  }
+
+  #prog-info {
+    margin-top: 400px;
+  }
+
+  .video-container {
+    margin-top: 100px;
   }
 
   #dates p {
@@ -826,6 +871,14 @@ button {
   .image {
     width: 100%;
     border-radius: 20px;
+  }
+
+  #showcase h2 {
+    padding-bottom: 40px;
+  }
+
+  #showcase p {
+    padding-bottom: 10px;
   }
 
   /* Testimonials */
@@ -1084,7 +1137,7 @@ button {
     font-size: 12px;
     padding: 0px;
     padding-top: 6px;
-    margin: 0px;
+    margin-top: -50px;
     color: #fff;
   }
 
@@ -1235,6 +1288,14 @@ button {
     margin-bottom: 25px;
   }
 
+  .video-container {
+    margin-top: 100px;
+  }
+
+  #prog-info {
+    margin-top: 800px;
+  }
+
   #dates p {
     font-size: 28px;
     display: inline-block;
@@ -1330,6 +1391,14 @@ button {
     border-radius: 20px;
   }
 
+  #showcase h2 {
+    padding-bottom: 100px;
+  }
+
+  #showcase p {
+    padding-bottom: 70px;
+  }
+
   #testimonials {
     background-color: #f2f2f2;
     padding-top: 80px;
@@ -1388,7 +1457,7 @@ button {
   }
 
   .button-text1 {
-    font-size: 15px;
+    font-size: 25px;
     padding-top: 0;
   }
 
@@ -1622,7 +1691,7 @@ button {
     font-size: 12px;
     padding: 0px;
     padding-top: 6px;
-    margin: 0px;
+    margin-top: -50px;
     color: #fff;
   }
 
